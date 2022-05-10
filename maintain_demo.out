@@ -1,0 +1,1472 @@
+SQL> @maintain.sql
+
+TABLESPACE_NAME                STATUS    CONTENTS                               
+------------------------------ --------- ---------------------                  
+SYSTEM                         ONLINE    PERMANENT                              
+SYSAUX                         ONLINE    PERMANENT                              
+UNDOTBS1                       ONLINE    UNDO                                   
+TEMP                           ONLINE    TEMPORARY                              
+USERS                          ONLINE    PERMANENT                              
+TOOLS                          ONLINE    PERMANENT                              
+DATA                           ONLINE    PERMANENT                              
+index                          ONLINE    PERMANENT                              
+
+8 rows selected.
+
+
+TABLESPACE_NAME                FREE_SPACE_MB LARGEST_FREE_CHUNCK_MB             
+------------------------------ ------------- ----------------------             
+SYSTEM                                 2.125                      2             
+SYSAUX                               39.9375                39.9375             
+UNDOTBS1                             171.875                     13             
+USERS                                97.3125                97.3125             
+index                                     99                     99             
+TOOLS                                     99                     99             
+DATA                                      99                     99             
+
+7 rows selected.
+
+
+TABLESPACE_NAME                SIZE_IN_MB                                       
+------------------------------ ----------                                       
+SYSTEM                               1010                                       
+SYSAUX                                770                                       
+UNDOTBS1                              855                                       
+USERS                                 100                                       
+index                                 100                                       
+TOOLS                                 100                                       
+DATA                                  100                                       
+
+7 rows selected.
+
+
+TABLESPACE_NAME                SIZE_IN_MB                                       
+------------------------------ ----------                                       
+TEMP                                  100                                       
+
+
+TABLESPACE_NAME                                                                 
+------------------------------                                                  
+FILE_NAME                                                                       
+--------------------------------------------------------------------------------
+DATA                                                                            
+/u04/oradata/CSCIE67/data04.dbf                                                 
+                                                                                
+SYSAUX                                                                          
+/u04/oradata/CSCIE67/sysaux01.dbf                                               
+                                                                                
+SYSTEM                                                                          
+/u04/oradata/CSCIE67/system01.dbf                                               
+                                                                                
+
+TABLESPACE_NAME                                                                 
+------------------------------                                                  
+FILE_NAME                                                                       
+--------------------------------------------------------------------------------
+TEMP                                                                            
+/u04/oradata/CSCIE67/temp01.dbf                                                 
+                                                                                
+TOOLS                                                                           
+/u04/oradata/CSCIE67/tools04.dbf                                                
+                                                                                
+UNDOTBS1                                                                        
+/u04/oradata/CSCIE67/undotbs01.dbf                                              
+                                                                                
+
+TABLESPACE_NAME                                                                 
+------------------------------                                                  
+FILE_NAME                                                                       
+--------------------------------------------------------------------------------
+USERS                                                                           
+/u04/oradata/CSCIE67/users01.dbf                                                
+                                                                                
+index                                                                           
+/u04/oradata/CSCIE67/index04.dbf                                                
+                                                                                
+
+8 rows selected.
+
+
+    GROUP# TYPE                                                                 
+---------- -------                                                              
+MEMBER                                                                          
+--------------------------------------------------------------------------------
+         3 ONLINE                                                               
+/u04/oradata/CSCIE67/redo03.log                                                 
+                                                                                
+         2 ONLINE                                                               
+/u04/oradata/CSCIE67/redo02.log                                                 
+                                                                                
+         1 ONLINE                                                               
+/u04/oradata/CSCIE67/redo01.log                                                 
+                                                                                
+
+    GROUP# TYPE                                                                 
+---------- -------                                                              
+MEMBER                                                                          
+--------------------------------------------------------------------------------
+         4 ONLINE                                                               
+/u04/oradata/CSCIE67/log4c.rdo                                                  
+                                                                                
+         4 ONLINE                                                               
+/u04/oradata/CSCIE67/log4b.rdo                                                  
+                                                                                
+         5 ONLINE                                                               
+/u04/oradata/CSCIE67/log5c.rdo                                                  
+                                                                                
+
+    GROUP# TYPE                                                                 
+---------- -------                                                              
+MEMBER                                                                          
+--------------------------------------------------------------------------------
+         5 ONLINE                                                               
+/u04/oradata/CSCIE67/log5b.rdo                                                  
+                                                                                
+         6 ONLINE                                                               
+/u04/oradata/CSCIE67/log6c.rdo                                                  
+                                                                                
+         6 ONLINE                                                               
+/u04/oradata/CSCIE67/log6b.rdo                                                  
+                                                                                
+
+9 rows selected.
+
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_FILESTATXS                                                                 
+                                                                                
+06-NOV-21                                                                       
+WRH$_FILESTATXS_PK                                                              
+                                                                                
+06-NOV-21                                                                       
+WRH$_FILESTATXS_PK                                                              
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SQLSTAT                                                                    
+                                                                                
+06-NOV-21                                                                       
+WRH$_SQLSTAT_PK                                                                 
+                                                                                
+06-NOV-21                                                                       
+WRH$_SQLSTAT_PK                                                                 
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SQLSTAT_INDEX                                                              
+                                                                                
+06-NOV-21                                                                       
+WRH$_SQLSTAT_INDEX                                                              
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYSTEM_EVENT                                                               
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SYSTEM_EVENT_PK                                                            
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYSTEM_EVENT_PK                                                            
+                                                                                
+06-NOV-21                                                                       
+WRH$_WAITSTAT                                                                   
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_WAITSTAT_PK                                                                
+                                                                                
+06-NOV-21                                                                       
+WRH$_WAITSTAT_PK                                                                
+                                                                                
+06-NOV-21                                                                       
+WRH$_LATCH                                                                      
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_LATCH_PK                                                                   
+                                                                                
+06-NOV-21                                                                       
+WRH$_LATCH_PK                                                                   
+                                                                                
+06-NOV-21                                                                       
+WRH$_LATCH_MISSES_SUMMARY                                                       
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_LATCH_MISSES_SUMMARY_PK                                                    
+                                                                                
+06-NOV-21                                                                       
+WRH$_LATCH_MISSES_SUMMARY_PK                                                    
+                                                                                
+06-NOV-21                                                                       
+WRH$_DB_CACHE_ADVICE                                                            
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_DB_CACHE_ADVICE_PK                                                         
+                                                                                
+06-NOV-21                                                                       
+WRH$_DB_CACHE_ADVICE_PK                                                         
+                                                                                
+06-NOV-21                                                                       
+WRH$_ROWCACHE_SUMMARY                                                           
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_ROWCACHE_SUMMARY_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_ROWCACHE_SUMMARY_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_SGASTAT                                                                    
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SGASTAT_U                                                                  
+                                                                                
+06-NOV-21                                                                       
+WRH$_SGASTAT_U                                                                  
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYSSTAT                                                                    
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SYSSTAT_PK                                                                 
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYSSTAT_PK                                                                 
+                                                                                
+06-NOV-21                                                                       
+WRH$_PARAMETER                                                                  
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_PARAMETER_PK                                                               
+                                                                                
+06-NOV-21                                                                       
+WRH$_PARAMETER_PK                                                               
+                                                                                
+06-NOV-21                                                                       
+WRH$_SEG_STAT                                                                   
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SEG_STAT_PK                                                                
+                                                                                
+06-NOV-21                                                                       
+WRH$_SEG_STAT_PK                                                                
+                                                                                
+06-NOV-21                                                                       
+WRH$_SERVICE_STAT                                                               
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SERVICE_STAT_PK                                                            
+                                                                                
+06-NOV-21                                                                       
+WRH$_SERVICE_STAT_PK                                                            
+                                                                                
+06-NOV-21                                                                       
+WRH$_ACTIVE_SESSION_HISTORY                                                     
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_ACTIVE_SESSION_HISTORY_PK                                                  
+                                                                                
+06-NOV-21                                                                       
+WRH$_ACTIVE_SESSION_HISTORY_PK                                                  
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYSMETRIC_HISTORY                                                          
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SYSMETRIC_HISTORY_INDEX                                                    
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYSMETRIC_HISTORY_INDEX                                                    
+                                                                                
+06-NOV-21                                                                       
+WRH$_TABLESPACE_STAT                                                            
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_TABLESPACE_STAT_PK                                                         
+                                                                                
+06-NOV-21                                                                       
+WRH$_TABLESPACE_STAT_PK                                                         
+                                                                                
+06-NOV-21                                                                       
+WRH$_OSSTAT                                                                     
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_OSSTAT_PK                                                                  
+                                                                                
+06-NOV-21                                                                       
+WRH$_OSSTAT_PK                                                                  
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYS_TIME_MODEL                                                             
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SYS_TIME_MODEL_PK                                                          
+                                                                                
+06-NOV-21                                                                       
+WRH$_SYS_TIME_MODEL_PK                                                          
+                                                                                
+06-NOV-21                                                                       
+WRH$_SERVICE_WAIT_CLASS                                                         
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SERVICE_WAIT_CLASS_PK                                                      
+                                                                                
+06-NOV-21                                                                       
+WRH$_SERVICE_WAIT_CLASS_PK                                                      
+                                                                                
+06-NOV-21                                                                       
+WRH$_EVENT_HISTOGRAM                                                            
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_EVENT_HISTOGRAM_PK                                                         
+                                                                                
+06-NOV-21                                                                       
+WRH$_EVENT_HISTOGRAM_PK                                                         
+                                                                                
+06-NOV-21                                                                       
+WRH$_MVPARAMETER                                                                
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_MVPARAMETER_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_MVPARAMETER_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_GLOBAL_SUMMARY                                                        
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CELL_GLOB_SUMM_PK                                                          
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_GLOB_SUMM_PK                                                          
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_DISK_SUMMARY                                                          
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CELL_DISK_SUMM_PK                                                          
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_DISK_SUMM_PK                                                          
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_GLOBAL                                                                
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CELL_GLOBAL_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_GLOBAL_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_IOREASON                                                              
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CELL_IOREASON_PK                                                           
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_IOREASON_PK                                                           
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_DB                                                                    
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CELL_DB_PK                                                                 
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_DB_PK                                                                 
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_OPEN_ALERTS                                                           
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CELL_OPEN_ALERTS_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_CELL_OPEN_ALERTS_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_IM_SEG_STAT                                                                
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_IM_SEG_STAT_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_IM_SEG_STAT_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRM$_PDB_IN_SNAP                                                                
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRM$_PDB_IN_SNAP_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRM$_PDB_IN_SNAP_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYSMETRIC_HISTORY                                                      
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CON_SYSMET_HISTORY_INDEX                                                   
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYSMET_HISTORY_INDEX                                                   
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYS_TIME_MODEL                                                         
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CON_SYS_TIME_MODEL_PK                                                      
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYS_TIME_MODEL_PK                                                      
+                                                                                
+06-NOV-21                                                                       
+WRM$_ACTIVE_PDBS                                                                
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRM$_ACTIVE_PDBS_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRM$_ACTIVE_PDBS_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYSSTAT                                                                
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CON_SYSSTAT_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYSSTAT_PK                                                             
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYSTEM_EVENT                                                           
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_CON_SYSTEM_EVENT_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_CON_SYSTEM_EVENT_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_PROCESS_WAITTIME                                                           
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_PROCESS_WAITTIME_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_PROCESS_WAITTIME_PK                                                        
+                                                                                
+06-NOV-21                                                                       
+WRH$_ASM_DISK_STAT_SUMMARY                                                      
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_ASM_DISK_STAT_SUMMARY_PK                                                   
+                                                                                
+06-NOV-21                                                                       
+WRH$_ASM_DISK_STAT_SUMMARY_PK                                                   
+                                                                                
+06-NOV-21                                                                       
+WRH$_AWR_TEST_1                                                                 
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_AWR_TEST_1_PK                                                              
+                                                                                
+06-NOV-21                                                                       
+WRH$_AWR_TEST_1_PK                                                              
+                                                                                
+06-NOV-21                                                                       
+WRH$_SESS_NETWORK                                                               
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRH$_SESS_NETWORK_PK                                                            
+                                                                                
+06-NOV-21                                                                       
+WRH$_SESS_NETWORK_PK                                                            
+                                                                                
+06-NOV-21                                                                       
+WRM$_DEEP_PURGE_INTERVAL                                                        
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRP$_REPORTS                                                                    
+                                                                                
+06-NOV-21                                                                       
+WRP$_REPORTS_IDX01                                                              
+                                                                                
+06-NOV-21                                                                       
+WRP$_REPORTS_IDX02                                                              
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+WRP$_REPORTS_DETAILS                                                            
+                                                                                
+06-NOV-21                                                                       
+WRP$_REPORTS_DETAILS_IDX01                                                      
+                                                                                
+06-NOV-21                                                                       
+WRP$_REPORTS_DETAILS_IDX02                                                      
+                                                                                
+
+CREATED                                                                         
+---------                                                                       
+OBJECT_NAME                                                                     
+--------------------------------------------------------------------------------
+06-NOV-21                                                                       
+SYS_IL0000007451C00009$$                                                        
+                                                                                
+06-NOV-21                                                                       
+SYS_LOB0000007451C00009$$                                                       
+                                                                                
+06-NOV-21                                                                       
+WRP$_REPORTS_TIME_BANDS                                                         
+                                                                                
+
+126 rows selected.
+
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+TABLE                                                                           
+IDL_UB1$                                                                        
+ .38671875                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+LOBSEGMENT                                                                      
+SYS_LOB0000010461C00001$$                                                       
+ .14074707                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+TYPE2 UNDO                                                                      
+_SYSSMU7_2329891355$                                                            
+.110351563                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+LOBSEGMENT                                                                      
+SYS_LOB0000022516C00008$$                                                       
+   .109375                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+TYPE2 UNDO                                                                      
+_SYSSMU8_399776867$                                                             
+.102539063                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+MDSYS                                                                           
+LOBSEGMENT                                                                      
+SYS_LOB0000064076C00006$$                                                       
+.101745605                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+TYPE2 UNDO                                                                      
+_SYSSMU4_625702278$                                                             
+.086914063                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+TYPE2 UNDO                                                                      
+_SYSSMU10_930580995$                                                            
+  .0859375                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+SYS                                                                             
+TYPE2 UNDO                                                                      
+_SYSSMU2_27624015$                                                              
+.084960938                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+SEGMENT_TYPE                                                                    
+------------------                                                              
+SEGMENT_NAME                                                                    
+--------------------------------------------------------------------------------
+ SIZE (GB)                                                                      
+----------                                                                      
+MDSYS                                                                           
+LOBSEGMENT                                                                      
+SYS_LOB0000075204C00006$$                                                       
+ .07043457                                                                      
+                                                                                
+
+10 rows selected.
+
+
+SPID                     ADDR             USERNAME                              
+------------------------ ---------------- ---------------                       
+                         0000000067706FB0                                       
+2164                     0000000067708520 oracle                                
+2168                     0000000067709A90 oracle                                
+2172                     000000006770B000 oracle                                
+2177                     000000006770C570 oracle                                
+2183                     000000006770DAE0 oracle                                
+2187                     000000006770F050 oracle                                
+2209                     00000000677105C0 oracle                                
+2193                     0000000067711B30 oracle                                
+2193                     00000000677130A0 oracle                                
+2196                     0000000067714610 oracle                                
+
+SPID                     ADDR             USERNAME                              
+------------------------ ---------------- ---------------                       
+2198                     0000000067715B80 oracle                                
+2198                     00000000677170F0 oracle                                
+2201                     0000000067718660 oracle                                
+2205                     0000000067719BD0 oracle                                
+2207                     000000006771B140 oracle                                
+2213                     000000006771C6B0 oracle                                
+2215                     000000006771DC20 oracle                                
+2219                     000000006771F190 oracle                                
+2223                     0000000067720700 oracle                                
+2227                     0000000067721C70 oracle                                
+2229                     00000000677231E0 oracle                                
+
+SPID                     ADDR             USERNAME                              
+------------------------ ---------------- ---------------                       
+2233                     0000000067724750 oracle                                
+2235                     0000000067725CC0 oracle                                
+2237                     0000000067727230 oracle                                
+2239                     00000000677287A0 oracle                                
+2241                     0000000067729D10 oracle                                
+2245                     000000006772B280 oracle                                
+2247                     000000006772C7F0 oracle                                
+2258                     000000006772DD60 oracle                                
+2254                     000000006772F2D0 oracle                                
+2256                     0000000067730840 oracle                                
+2260                     0000000067731DB0 oracle                                
+
+SPID                     ADDR             USERNAME                              
+------------------------ ---------------- ---------------                       
+2262                     0000000067733320 oracle                                
+2271                     0000000067734890 oracle                                
+2265                     0000000067735E00 oracle                                
+2273                     0000000067737370 oracle                                
+2275                     00000000677388E0 oracle                                
+2277                     0000000067739E50 oracle                                
+2280                     000000006773B3C0 oracle                                
+2295                     000000006773C930 oracle                                
+2284                     000000006773DEA0 oracle                                
+2286                     000000006773F410 oracle                                
+2288                     0000000067740980 oracle                                
+
+SPID                     ADDR             USERNAME                              
+------------------------ ---------------- ---------------                       
+2290                     0000000067741EF0 oracle                                
+2292                     0000000067743460 oracle                                
+2470                     00000000677449D0 oracle                                
+2636                     0000000067745F40 oracle                                
+3111                     00000000677474B0 oracle                                
+3115                     0000000067748A20 oracle                                
+3120                     0000000067749F90 oracle                                
+4737                     000000006774B500 oracle                                
+6749                     000000006774CA70 oracle                                
+6751                     000000006774DFE0 oracle                                
+2506                     000000006775B640 oracle                                
+
+SPID                     ADDR             USERNAME                              
+------------------------ ---------------- ---------------                       
+2511                     0000000067034030 oracle                                
+2518                     0000000067038080 oracle                                
+2536                     000000006703C0D0 oracle                                
+2538                     000000006703D640 oracle                                
+2606                     0000000067040120 oracle                                
+
+60 rows selected.
+
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+00000000671AAA28          1                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671AD210          2                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+00000000671AF9F8          3                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671B21E0          4                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+00000000671B49C8          5                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671B71B0          6                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+SYS                                                                             
+         0                                                                      
+                                                                                
+00000000671B9998          7                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+00000000671BC180          8                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671BE968          9                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+00000000671C1150         10                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671C3938         11                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+00000000671C6120         12                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671C8908         13                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+         0                                                                      
+                                                                                
+00000000671CD8D8         15                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+00000000671D28A8         17                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671D5090         18                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+00000000671D7878         19                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671DC848         21                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+00000000671E4000         24                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671EDFA0         28                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+         0                                                                      
+                                                                                
+00000000671F0788         29                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+00000000671F5758         31                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000671FCF10         34                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+00000000671FF6F8         35                                                     
+                                                                                
+         0                                                                      
+                                                                                
+0000000067206EB0         38                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+000000006720E668         41                                                     
+                                                                                
+         0                                                                      
+                                                                                
+0000000067210E50         42                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+         0                                                                      
+                                                                                
+0000000066883818        238                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+0000000066886000        239                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000668887E8        240                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+000000006688AFD0        241                                                     
+                                                                                
+         0                                                                      
+                                                                                
+000000006688D7B8        242                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+000000006688FFA0        243                                                     
+                                                                                
+         0                                                                      
+                                                                                
+0000000066892788        244                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+         0                                                                      
+                                                                                
+0000000066894F70        245                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+0000000066897758        246                                                     
+                                                                                
+         0                                                                      
+                                                                                
+0000000066899F40        247                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+000000006689C728        248                                                     
+                                                                                
+         0                                                                      
+                                                                                
+000000006689EF10        249                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+00000000668A16F8        250                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000668A3EE0        251                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+         0                                                                      
+                                                                                
+00000000668A66C8        252                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+00000000668A8EB0        253                                                     
+SYS                                                                             
+         3                                                                      
+                                                                                
+00000000668AB698        254                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+00000000668B0668        256                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000668B5638        258                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+00000000668B7E20        259                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000668BCDF0        261                                                     
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+         0                                                                      
+                                                                                
+00000000668C6D90        265                                                     
+                                                                                
+         0                                                                      
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+00000000668D0D30        269                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000668E4C70        277                                                     
+                                                                                
+         0                                                                      
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+                                                                                
+00000000668E7458        278                                                     
+                                                                                
+         0                                                                      
+                                                                                
+00000000668FDB80        287                                                     
+                                                                                
+
+SADDR                   SID                                                     
+---------------- ----------                                                     
+USERNAME                                                                        
+--------------------------------------------------------------------------------
+   COMMAND                                                                      
+----------                                                                      
+         0                                                                      
+                                                                                
+
+53 rows selected.
+
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+  COUNT(*)                                                                      
+----------                                                                      
+SYS                                                                             
+      6308                                                                      
+                                                                                
+SYSTEM                                                                          
+       288                                                                      
+                                                                                
+DBSNMP                                                                          
+         6                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+  COUNT(*)                                                                      
+----------                                                                      
+CTXSYS                                                                          
+        43                                                                      
+                                                                                
+OJVMSYS                                                                         
+         6                                                                      
+                                                                                
+DVSYS                                                                           
+        73                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+  COUNT(*)                                                                      
+----------                                                                      
+AUDSYS                                                                          
+        39                                                                      
+                                                                                
+GSMADMIN_INTERNAL                                                               
+        21                                                                      
+                                                                                
+ORDDATA                                                                         
+        21                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+  COUNT(*)                                                                      
+----------                                                                      
+MDSYS                                                                           
+       350                                                                      
+                                                                                
+LBACSYS                                                                         
+         5                                                                      
+                                                                                
+OUTLN                                                                           
+         9                                                                      
+                                                                                
+
+OWNER                                                                           
+--------------------------------------------------------------------------------
+  COUNT(*)                                                                      
+----------                                                                      
+XDB                                                                             
+       761                                                                      
+                                                                                
+WMSYS                                                                           
+        99                                                                      
+                                                                                
+ORDSYS                                                                          
+         6                                                                      
+                                                                                
+
+15 rows selected.
+
+
+TABLESPACE_NAME                  COUNT(*)                                       
+------------------------------ ----------                                       
+SYSAUX                               3464                                       
+SYSTEM                               3853                                       
+UNDOTBS1                              691                                       
+USERS                                  27                                       
+
+
+Total System Global Area  377483336 bytes                                       
+Fixed Size                  8896584 bytes                                       
+Variable Size             213909504 bytes                                       
+Database Buffers          146800640 bytes                                       
+Redo Buffers                7876608 bytes                                       
+
+NAME                                 TYPE        VALUE                          
+------------------------------------ ----------- ------------------------------ 
+memory_target                        big integer 600M                           
+SQL> spool off
